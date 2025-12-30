@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #6b0000, #120000);
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.auth a {
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.login {
+  border: 1px solid #ffcc00;
+  color: #ffcc00;
+}
+
+.register {
+  background: linear-gradient(45deg, #ffcc00, #ff6600);
+  color: #000;
+}
+
+.main {
+  padding: 25px 15px;
+}
+
+.logo-box {
+  width: 140px;
+  height: 140px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff6600, #ffcc00);
+  padding: 5px;
+}
+
+.logo-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #300;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 26px;
+}
+
+.bonus {
+  color: #ffcc00;
+  margin: 10px 0 20px;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  width: 90%;
+  max-width: 320px;
+  margin: 10px auto;
+  padding: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+}
+
+.green {
+  background: #1db954;
+  color: #fff;
+}
+
+.blue {
+  background: #1e88e5;
+  color: #fff;
+}
+
+.desc {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+.about {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.95;
+  margin-bottom: 10px;
+}
+.contact {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact-text {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  display: block;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.telegram {
+  background: linear-gradient(45deg, #229ED9, #0f6fa8);
+  color: #fff;
+}
+
+.email {
+  background: linear-gradient(45deg, #ffcc00, #ff6600);
+  color: #000;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+.faq {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq h2 {
+  color: #ffcc00;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+}
+
+.faq-item h3 {
+  font-size: 15px;
+  color: #ffd966;
+  margin-bottom: 4px;
+}
+
+.faq-item p {
+  font-size: 13px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+.legal {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legal h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.legal p {
+  font-size: 13px;
+  opacity: 0.85;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+.footer {
+  margin-top: 30px;
+  padding: 15px 10px 25px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.footer-links a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 4px;
+}
