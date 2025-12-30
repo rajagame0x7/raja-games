@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajagame0x7.github.io/raja-games/sitemap.xml
